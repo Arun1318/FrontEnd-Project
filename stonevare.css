@@ -1,0 +1,210 @@
+@media (max-width:500px) {
+    .content{
+        position: absolute;
+        top:380px;
+        left:25px;
+        z-index:5;
+        text-align:center;                
+        border:1px solid gold;
+        padding:20px;
+        padding-top: 30px;
+        padding-bottom:30px;
+        border-bottom-right-radius: 80px;
+        border-top-right-radius: 80px;
+        color:gold;
+    }
+}
+
+.navi{
+    position: sticky;
+    top: 0px; 
+    background-color: transparent;
+    z-index: 10;
+}
+
+@media (min-width:501px)
+{
+.content{
+    position: absolute;
+    z-index:4;
+    top:320px;
+    left:320px; 
+    font-size: 25px;
+    font-style: italic;
+    color:gold;
+    text-align: center;
+    border: 3px solid yellow;
+    padding: 180px;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+    max-width: 800px;       
+}
+}
+
+#card1 {
+
+background-color: coral;
+border-top-left-radius: 40px;
+border-top-right-radius: 40px;
+padding-bottom: 8px;
+border: none;
+}
+
+.hover-card:hover {
+transform: scale(1.1);
+}
+
+#header1 {            
+height: 200px;
+background-image: url('building.jpg');
+background-size: cover;
+border-radius: 40px;
+}
+#header2{
+background-image: url('ship.jpg');           
+height: 200px;          
+background-size: cover;
+border-radius: 40px;
+}
+#header3{
+background-image: url('food..jpg');           
+height: 200px;          
+background-size: cover;
+border-radius: 40px;
+}
+#header4{
+background-image: url('islands.jpg');           
+height: 200px;          
+background-size: cover;
+border-radius: 40px;
+}
+
+#card-body1 p {
+text-align: center;
+padding: 20px;
+
+}
+.shadow .card-text {
+text-align: center;
+}
+
+.hotels-info {
+background-image: url('bird1.png');
+background-size: cover;
+}
+
+.hotels-content {
+position: absolute;
+color: black;
+opacity: 1;
+}
+
+
+@media (min-width:501px){
+.hotels-content{
+    margin-left:750px;
+    margin-top: -200px;            
+}
+}
+@media (max-width:500px){
+.hotels-content{
+    margin-top:400px;
+    
+}
+}
+@media (min-width:501px){
+.cwid{
+    
+    width:500px;            
+}
+}
+
+.hotels-info {
+
+
+background-image: url('bird1.png');
+background-size: cover;   
+}
+
+#hotels-info{
+position: relative;
+height: 400px;
+width: 100%;
+
+}
+
+#hotels-info1{
+position: relative;
+height: 400px;
+width: 100%;
+top:-200px;
+}
+@media(max-width:500px)
+{
+#hotels-content{
+margin-top: 200px;
+}
+#hotels-info1{
+top:-200px;
+}
+#hotels-content1{
+margin-top:170px;
+}
+}
+#hotel-info1{
+
+top:100px;
+}
+
+@media(max-width:500px){
+#hotel-info1{
+position: relative;
+top:500px;
+}
+}
+#hotels-content{
+position: relative;
+background-image: url('hb4.jpg');
+background-size: cover;
+height: 400px;
+top: -200px;  
+
+}
+#hotels-content1{
+
+background-image: url('ir1.jpg');
+background-size: cover;
+height: 400px;    
+}
+@media(max-width:500px)
+{
+.hotels-info{
+width: 100%;
+}
+.fc{
+position:relative;
+top:160px;
+}
+
+}
+
+@media (min-width:501px){
+.fc{
+margin-top: -200px;
+}
+
+}
+
+.iwidth{
+width: 250px;
+}
+
+
+.body{
+overflow-x: hidden;
+}
+
+.formee{
+background-image: url('bo.jpg');
+background-size: cover;
+}
